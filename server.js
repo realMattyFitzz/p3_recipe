@@ -16,12 +16,6 @@ app.use(express.json());
 if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build")); 
 }
-const app = express();
-mongoose.connect("mongodb://localhost/mongoose-passport", {
-  useUnifiedTopology: true,
-  useNewUrlParser: true,
-  useCreateIndex: true,
-});
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
