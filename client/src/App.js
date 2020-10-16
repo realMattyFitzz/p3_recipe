@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./App.css";
 import Axios from "axios";
 import { v4 as uuidv4 } from "uuid";
-import Recipe from "../components/Recipe";
-import Alert from "../components/Alert";
+import Recipe from "./components/Recipe";
+import Alert from "./components/Alert";
 
 function App() {
   const [query, setQuery] = useState("");
@@ -43,6 +43,7 @@ function App() {
       <form onSubmit={onSubmit} className="search-form">
         {alert !== "" && <Alert alert={alert} />}
         <input
+        id="food"
           type="text"
           name="query"
           onChange={onChange}
