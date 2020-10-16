@@ -1,0 +1,61 @@
+* {
+    text-align: center;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    color: white;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+body {
+    background: black;
+}
+input {
+    background-color: aqua;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.recipes {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    display: inline-block;
+  }
+  button {
+
+  background-color: aqua;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  }
+  button:hover {
+    background-color: slategray;
+    
+  }
+a {
+    color: black;
+}
+input{
+    background-color: aqua;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+input:hover {
+    background-color: slategray;
+}
