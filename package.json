@@ -12,7 +12,8 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-native": "^0.63.3",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",

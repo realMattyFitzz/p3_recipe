@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>RapidRecipe</h1>
+      <h1><i class="fas fa-stopwatch" style={{ color: 'aqua' }}></i>RapidRecipe</h1>
       <form onSubmit={onSubmit} className="search-form">
         {alert !== "" && <Alert alert={alert} />}
         <input
