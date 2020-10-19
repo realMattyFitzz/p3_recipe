@@ -24,7 +24,7 @@ app.use(logger("dev"));
 // We need to use sessions to keep track of our user's login status
 app.use(
   session({
-    secret: "keyboard cat",
+    secret: "keyboard",
     resave: true,
     saveUninitialized: true,
     store: new MongoStore({ mongooseConnection: mongoose.connection }),
